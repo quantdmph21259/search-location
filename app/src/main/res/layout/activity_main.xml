@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập địa chỉ"
+        android:inputType="text"
+        android:drawableLeft="@drawable/baseline_search_24"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/custom_edt_search"/>
+
+    <ListView
+        android:id="@+id/resultsListView"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
